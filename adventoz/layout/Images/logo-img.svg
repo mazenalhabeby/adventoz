@@ -1,0 +1,36 @@
+
+<svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 358.88 272.25" style="enable-background:new 0 0 358.88 272.25;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F8F8F8;stroke-width:3;stroke-miterlimit:10;}
+
+	.st0 {
+		stroke-dasharray: 2000;
+		stroke-dashoffset: 0;
+		-webkit-animation: dash 4s linear forwards;
+		-moz-animation: dash 4s linear forwards;
+		-o-animation: dash 4s linear forwards;
+		animation: dash 4s linear forwards;
+
+	}
+
+	@-webkit-keyframes dash {
+		0% {
+			stroke-dashoffset:2000;
+			fill: none;
+		}
+		50% {
+			stroke-dashoffset:0;
+			fill: rgba(107, 78, 111, 0.1);
+		}
+		100% {
+			stroke-dashoffset:0;
+			fill: rgba(107, 78, 111, 1);
+		}
+	}
+
+</style>
+<polygon class="st0" points="169.23,259.75 104.05,266.9 144.08,188.1 191.88,216.39 "/>
+<polygon class="st0" points="164.77,139.09 237,7.25 294,7.25 352.13,266.25 279.48,267.6 20.85,91.1 272.63,193 254.25,67.5 
+	217.73,158.26 "/>
+</svg>

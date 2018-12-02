@@ -1,0 +1,276 @@
+
+.error-style, .success-style {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    height: 100%;
+}
+
+.error-style {
+    color:#770909;
+    border-left: 5px solid #770909;
+}
+
+.success-style {
+    color: #036603;
+    border-left: 5px solid #036603;
+}
+
+/*---- Start Style Form in the main page ----*/
+/*---- Start Style form 1 ----*/
+
+.log-cont {
+    perspective: 1000px;
+}
+
+.log-form {
+    position: relative;
+    width: 70%;
+    height: 554px;
+    transform-style: preserve-3d;
+    margin: 50px auto 0;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+}
+
+.log-form form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+    font-family: Calibri, serif;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.log-form .front-form {
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.log-form h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 8px;
+    pointer-events: none;
+    color: #6b4e6f;
+}
+.log-form .inputbox {
+    position: relative;
+}
+
+.log-form .inputbox label{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top: 15px;
+    left: 78px;
+    pointer-events: none;
+    transition: .5s;
+    Color: #989696;
+}
+
+.log-form .inputbox input:focus {
+    box-shadow: 1px 1px 24px #8a4f92;
+}
+
+.log-form .inputbox input:focus,
+.log-form .inputbox input:valid {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    outline: none;
+}
+
+.log-form .inputbox input:focus ~ label,
+.log-form .inputbox input:valid ~ label {
+    top: -25px;
+    left: 60px;
+    font-size: 16px;
+    color: #6b4e6f;
+}
+
+.log-form .front-form input,.log-form form span {
+    display: block;
+}
+
+.log-form .inputbox input {
+    width: 80%;
+    height: 50px;
+    margin: 40px auto auto;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 20px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 1px 9px 24px #6f6e6ffa;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.log-form .sub-buttom {
+    width: 40%;
+    background-color: #8a4f92;
+    color: #FFF;
+    height: 48px;
+    margin: 15px auto auto;
+    font-size: 18px;
+    padding: 0 20px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 1px 9px 24px #6f6e6ffa;
+    outline: none;
+
+}
+
+.log-form .sub-buttom:hover {
+    cursor: pointer;
+    background-color: #5b3163
+}
+
+.log-form .msg-error {
+    height: 6%;
+    padding: 7px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #770909;
+}
+
+.log-form .front-form .inputbox {
+    position: relative;
+}
+.log-form .front-form .front-label {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 167px;
+    left: 80px;
+}
+
+.log-form .front-form a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 130px;
+}
+
+.log-form .front-form a .pass-link {
+    margin-top: 15px;
+    font-size: 17px;
+    color: #3b4243;
+}
+
+.log-form .front-form a .pass-link:hover {
+    color: #6b4e6f;
+}
+
+.log-form hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.log-form .word-s1 {
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.log-form .icon i:first-of-type:hover {
+    color: #3B5998;
+    cursor: pointer;
+}
+
+.log-form .icon i:last-of-type:hover{
+    color: #BD081C;
+    cursor: pointer;
+}
+
+.log-form .front-form i {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 20px 25px;
+}
+
+.log-form .flap-form {
+    font-size: 22px;
+    cursor: pointer;
+    margin: auto;
+    color: #6b4e6f;
+    transition: .5s;
+    display: inline-block;
+}
+
+.log-form .flap-form:hover {
+    font-size: 24px;
+}
+/* ---- End Style form 1 ----*/
+/* ---- Start Style form 2 ----*/
+
+.log-form .back-form {
+    z-index: 2;
+    backface-visibility: hidden;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.log-form .back-form input,
+.log-form form span {
+    display: block;
+}
+.log-form .back-form .inputbox:first-of-type {
+    margin-top:15px
+}
+
+.log-form .back-form .inputbox {
+    margin-top: 56px
+}
+
+.log-form .back-form .inputbox input {
+    margin-top:0
+}
+
+.log-form .back-form .inputbox {
+    position: relative;
+}
+
+.log-form .back-form .inputbox .error-form::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -10px;
+}
+
+.log-form .back-form .inputbox .error-form {
+    position: absolute;
+    padding: 2px 0;
+    font-size: 14px;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px 35px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.log-form .back-form hr {
+    margin-top: 15px
+}
+/* ---- End Style form 2 ----*/
+/*---- End Style Form in the main page ----*/
+
+/*---- Start style effect on form  ----*/
+.rotate {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+/*---- End style effect on form  ----*/

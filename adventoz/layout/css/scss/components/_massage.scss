@@ -1,0 +1,17 @@
+
+.error-style, .success-style {
+        padding: 5px 0;
+        background: #e4e4e4;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 20px;
+        border-left: 20px solid;
+}
+
+.error-style {
+    color: $darkRedColor;
+}
+
+.success-style  {
+    color: $greenColor;
+}
